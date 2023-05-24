@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.card{
+    background-color: black;
+    border-radius: 7px;
+}
+.card:hover{
+    background-color: grey;
+
+}
+.sidenav
+{
+	background: #002240;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a
+{
+	color: #fff;
+	padding: 10px 15px 10px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.sidenav a:hover
+{
+	background: blue;
+}
+
+.main
+{
+	background: #002240;
+	margin-left: 20%;
+	padding: 4px 10px;
+	color: #fff;
+	display: inline-block;
+}
+@media screen and (max-width: 600px)
+{
+	.sidenav
+	{
+		padding-top: 15px;
+		width: 155px;
+
+	}
+	.sidenav a
+	{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+	.main
+	{
+		margin-left: 32%;
+		font-size: 15px;
+	}
+}
